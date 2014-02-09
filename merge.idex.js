@@ -17,7 +17,6 @@
 
         if (!(object2 instanceof HTMLElement)) {
             for (key in object2) {
-                console.log(object1);
                 if (object1.hasOwnProperty(key)) {
 
                     object1[key] = idex.merge(object1[key], object2[key]);
